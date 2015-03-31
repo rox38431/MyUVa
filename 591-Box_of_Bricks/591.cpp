@@ -13,14 +13,14 @@ int main ()	{
 		}
 	
 		aver /= stack_num;
-		cout << aver << endl;
+
 		for ( int i = 0; i < stack_num; i++)	{
 			if (stack[i] > aver)
 				ans += stack[i] - aver;
 		}
 		
 		cout << "Set #" << count++ << endl;
-		cout << "The minimum number of moves is " << ans << "." << endl << end;
+		cout << "The minimum number of moves is " << ans << "." << endl << endl;
 	}
 
 	return 0;
