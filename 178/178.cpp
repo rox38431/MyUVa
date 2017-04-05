@@ -5,11 +5,6 @@
 
 using namespace std;
 
-struct card {
-	int cardPos;
-	card *next;
-};
-
 
 int main() {
 	int caseCount = 1;
