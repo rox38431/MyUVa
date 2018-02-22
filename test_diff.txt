@@ -2,10 +2,10 @@ chicken
 
 pork
 
-beaf
+beaf (littile spicy)
 
 milo
 
-cow
+cow 
 
-duck
+duck (please remove this)
