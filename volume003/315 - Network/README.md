@@ -1,5 +1,4 @@
 # IDEA： 即找出 cut point
-
 1. 根據輸入利用 adjacency matrix 建立圖 G
 2. for each v in G.V
 　　令 G' = (G.V - v, G.E)
