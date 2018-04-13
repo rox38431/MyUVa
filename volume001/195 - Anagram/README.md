@@ -7,7 +7,7 @@
 
 可用 c++ STL 之 next_permutatoin()，替代遞迴呼叫，以更簡單的程式碼達成尋找 "比目前字串大之最小字串"
 
-```sh
+```cpp
 #include <iostream>
 #include <string>
 #include <cctype>		// tolower
