@@ -7,12 +7,12 @@
 ，此想法以　DP　實現，將所有子問題洽解一次。
 
 因此令　dollars[11] = { 5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000 }　記錄所使用的幣額，<br>
-且令矩陣　dp[0..30001][11]　紀錄　dynamic programming　過程，
+且令矩陣　dp[0..30001][11]　紀錄　dynamic programming　過程，<br>
 其中　dp[i][j]　表示組成金額ｉ元，使用的幣額不超過ｊ之方法數。
 
-初始設定　dp[0][j] = 1, for j = 0 to 10，
+初始設定　dp[0][j] = 1, for j = 0 to 10，<br>
 　　　　　dp[i][0] = 1, for i = 5, 10, 20, ... , 30000
 　　　　　
-dp[i][j] = 
-　　　　　dp[i][j - 1] + dp[i - dollars[j]][j],　if (i >= dollars[j])
+dp[i][j] = <br>
+　　　　　dp[i][j - 1] + dp[i - dollars[j]][j],　if (i >= dollars[j])<br>
 　　　　　dp[i - 1][j],　otherwise
