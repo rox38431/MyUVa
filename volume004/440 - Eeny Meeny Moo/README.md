@@ -1,0 +1,1 @@
+first, use brute force compute the m for all n
